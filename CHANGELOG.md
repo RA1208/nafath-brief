@@ -1,0 +1,6 @@
+- 1070339 skeleton: NAFATH-V2
+- 1f0ae9c overview: first draft
+- 5b85ada research: software, ai, mobile
+- 0cf9732 research: networking, cybersecurity, data
+- 6c25ba8 analysis: misconception and open question
+- 5ecc9f9 revise: overview
