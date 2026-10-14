@@ -24,4 +24,8 @@ A star schema organizes data using one central fact table connected to dimension
 It is simple to understand and useful for creating reports. A snowflake schema divides dimension tables into smaller related tables. This reduces repeated data but makes queries more complex. For a 5G service, a star schema is a good choice for reporting daily network usage by region because it makes data analysis and reporting easier.
 Resource: Microsoft Learn: Understand star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
+A common mistake in AI is thinking that a model is reliable just because it performs well during training. However, a model can memorize examples instead of learning patterns that work on new data. This is called overfitting. For example, a model predicting congestion on a 5G network might work well with past traffic data but struggle during an emergency. Cross-validation helps us notice this problem by checking the model on different parts of the data. If the results are much worse on unseen data, the model may be overfitting. Good training results alone are not enough to trust predictions.
+The "Cross-validation" section in the scikit-learn documentation explains why testing on unseen data matters.
+Resource: Scikit-learn: Cross-validation - https://scikit-learn.org/stable/modules/cross_validation.html
 ## Open Question
+How can AI predict sudden congestion in a 5G network during an emergency when the situation is different from the data used to train the model? What kind of real-world testing would help us know whether its predictions are reliable?
