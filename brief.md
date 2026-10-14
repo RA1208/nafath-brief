@@ -14,7 +14,14 @@ Resource: Scikit-learn: Cross-validation: evaluating estimator performance - htt
 Mobile applications used by emergency responders should continue working when the internet connection is lost. Important information can be stored locally on the devices users can access it offline. When the connection returns, the app should synchronize the saved information with the server. It should also handle possible conflicts and avoid sending duplicate requests. This helps emergency responders continue their work during network interruptions.
 Resource: Android Developers: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 ## Networking
+5G network slicing allows operators to create separate logical networks using shared infrastructure. Each network slice can be designed for specific needs, such as speed, reliability, or low delay. For emergency responders, a dedicated network slice can provide suitable resources and priority for important communications. This can help emergency teams communicate during busy periods. However, network slicing alone cannot guarantee that the service will never fail. Good planning, monitoring, and security are still necessary.
+Resource: 3GPP: Network Slicing - https://www.3gpp.org/technologies/slicing
 ## Cybersecurity
+Cybersecurity incident response includes four main stages: preparation, detection and analysis, containment and recovery, and lessons learned. If an emergency 5G service is attacked, the security team should first identify the problem and understand its impact. Then, they should isolate affected systems, remove the threat, and restore services safely. After the incident, the team should review what happened and improve security measures to prevent similar attacks.
+Resource: NIST SP 800-61 Rev. 2: Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800/61/r2/final
 ## Data
+A star schema organizes data using one central fact table connected to dimension tables, such as date and region.
+It is simple to understand and useful for creating reports. A snowflake schema divides dimension tables into smaller related tables. This reduces repeated data but makes queries more complex. For a 5G service, a star schema is a good choice for reporting daily network usage by region because it makes data analysis and reporting easier.
+Resource: Microsoft Learn: Understand star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 ## Misconception in My Track
 ## Open Question
